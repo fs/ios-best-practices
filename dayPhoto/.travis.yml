@@ -1,0 +1,30 @@
+language: objective-c
+
+xcode_workspace: DayPhoto.xcworkspace
+xcode_scheme: Staging
+
+before_install:
+    - export LANG=en_US.UTF-8
+    - sudo gem install cocoapods --no-document
+
+install:
+    - pod install
+
+script:
+    - ./DayPhoto/Scripts/build.sh
+    - ./DayPhoto/Scripts/test.sh
+
+branches:
+    only:
+        - master
+
+notifications:
+    hipchat:
+        rooms:
+            - $API_TOKEN@ios-base
+    email:
+        recipients:
+            # - one@example.com
+            # - other@example.com
+        on_success: change # [always|never|change] # default: change
+        on_failure: change # [always|never|change] # default: always

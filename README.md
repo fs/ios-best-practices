@@ -8,6 +8,10 @@
 * [AFNetworking example](/AFNetworkingExample) (Пример использования AFNetworking. Рекомендацию по использованию.)
 * [SDWebImage example](/SDWebImageExample) (Пример использования SDWebImage)
 * [RestKit example](/RestKitExample) (Пример использования RestKit)
+* [UIVisualEffectView example](/dayPhoto) (Пример использования UIVisualEffectView)
+* [Multitasking example](/dayPhoto) (Пример использования Multitasking)
+* [Custom View Controller presentation transitions example](/dayPhoto) (Пример создания кастомной анимации перехода между View Controller)
+* [Custom UICollectionView Layout example](/dayPhoto) (Пример создания кастомного UICollectionView Layout)
 
 #Cocoa
 
