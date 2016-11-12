@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF44B274E82324DE497DF78 /* Pods_Abstract_VoteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359D4F28F0B8BCE76DDC1803 /* Pods_Abstract_VoteApp.framework */; };
+		DC5635A91DCE297300E4840B /* PollEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5635A81DCE297300E4840B /* PollEntity.swift */; };
+		DCB5F9F01DC8C70F0030FC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB5F9EF1DC8C70F0030FC43 /* Assets.xcassets */; };
+		DCB5F9F71DC8C70F0030FC43 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DCB5F9F61DC8C70F0030FC43 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCB5F9FC1DC8C70F0030FC43 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5F9FB1DC8C70F0030FC43 /* Messages.framework */; };
+		DCB5F9FF1DC8C70F0030FC43 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5F9FE1DC8C70F0030FC43 /* MessagesViewController.swift */; };
+		DCB5FA021DC8C70F0030FC43 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB5FA001DC8C70F0030FC43 /* MainInterface.storyboard */; };
+		DCB5FA041DC8C70F0030FC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB5FA031DC8C70F0030FC43 /* Assets.xcassets */; };
+		DCB5FA101DC8CE5D0030FC43 /* ExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FA0F1DC8CE5D0030FC43 /* ExpandedViewController.swift */; };
+		DCB5FA141DC8E7DE0030FC43 /* CompactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FA131DC8E7DE0030FC43 /* CompactViewController.swift */; };
+		EA376D82A9B7248C3C111996 /* Pods_Abstract_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD39F780FC2CA69347CB1C2 /* Pods_Abstract_MessagesExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB5F9F81DC8C70F0030FC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB5F9E61DC8C70F0030FC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB5F9F51DC8C70F0030FC43;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCB5FA0B1DC8C70F0030FC43 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DCB5F9F71DC8C70F0030FC43 /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32424C6FA93C9B93C60A587E /* Pods-Abstract-MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-MessagesExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-MessagesExtension/Pods-Abstract-MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
+		359D4F28F0B8BCE76DDC1803 /* Pods_Abstract_VoteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_VoteApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E986ACCC82778BE3DDFDAAE /* Pods-Abstract-MessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-MessagesExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-MessagesExtension/Pods-Abstract-MessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD39F780FC2CA69347CB1C2 /* Pods_Abstract_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB6646EA54790B6C0F12530 /* Pods-Abstract-VoteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-VoteApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-VoteApp/Pods-Abstract-VoteApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC5635A81DCE297300E4840B /* PollEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollEntity.swift; sourceTree = "<group>"; };
+		DCB5F9EC1DC8C70F0030FC43 /* VoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5F9EF1DC8C70F0030FC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB5F9F11DC8C70F0030FC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB5F9F61DC8C70F0030FC43 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5F9FB1DC8C70F0030FC43 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		DCB5F9FE1DC8C70F0030FC43 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		DCB5FA011DC8C70F0030FC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DCB5FA031DC8C70F0030FC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB5FA051DC8C70F0030FC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB5FA0F1DC8CE5D0030FC43 /* ExpandedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandedViewController.swift; sourceTree = "<group>"; };
+		DCB5FA131DC8E7DE0030FC43 /* CompactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactViewController.swift; sourceTree = "<group>"; };
+		E2B350645C3A478E2B8E108B /* Pods-Abstract-VoteApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-VoteApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-VoteApp/Pods-Abstract-VoteApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA38EB0F70FDA81D8F41C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF44B274E82324DE497DF78 /* Pods_Abstract_VoteApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5F9F31DC8C70F0030FC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5F9FC1DC8C70F0030FC43 /* Messages.framework in Frameworks */,
+				EA376D82A9B7248C3C111996 /* Pods_Abstract_MessagesExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353742FEB9D1C88F4C99DA38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E986ACCC82778BE3DDFDAAE /* Pods-Abstract-MessagesExtension.debug.xcconfig */,
+				32424C6FA93C9B93C60A587E /* Pods-Abstract-MessagesExtension.release.xcconfig */,
+				8BB6646EA54790B6C0F12530 /* Pods-Abstract-VoteApp.debug.xcconfig */,
+				E2B350645C3A478E2B8E108B /* Pods-Abstract-VoteApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCB5F9E51DC8C70F0030FC43 = {
+			isa = PBXGroup;
+			children = (
+				DCB5F9EE1DC8C70F0030FC43 /* VoteApp */,
+				DCB5F9FD1DC8C70F0030FC43 /* MessagesExtension */,
+				DCB5F9FA1DC8C70F0030FC43 /* Frameworks */,
+				DCB5F9ED1DC8C70F0030FC43 /* Products */,
+				353742FEB9D1C88F4C99DA38 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB5F9ED1DC8C70F0030FC43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5F9EC1DC8C70F0030FC43 /* VoteApp.app */,
+				DCB5F9F61DC8C70F0030FC43 /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB5F9EE1DC8C70F0030FC43 /* VoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5F9EF1DC8C70F0030FC43 /* Assets.xcassets */,
+				DCB5F9F11DC8C70F0030FC43 /* Info.plist */,
+			);
+			path = VoteApp;
+			sourceTree = "<group>";
+		};
+		DCB5F9FA1DC8C70F0030FC43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5F9FB1DC8C70F0030FC43 /* Messages.framework */,
+				5CD39F780FC2CA69347CB1C2 /* Pods_Abstract_MessagesExtension.framework */,
+				359D4F28F0B8BCE76DDC1803 /* Pods_Abstract_VoteApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB5F9FD1DC8C70F0030FC43 /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5F9FE1DC8C70F0030FC43 /* MessagesViewController.swift */,
+				DCB5FA001DC8C70F0030FC43 /* MainInterface.storyboard */,
+				DCB5FA131DC8E7DE0030FC43 /* CompactViewController.swift */,
+				DCB5FA0F1DC8CE5D0030FC43 /* ExpandedViewController.swift */,
+				DC5635A81DCE297300E4840B /* PollEntity.swift */,
+				DCB5FA031DC8C70F0030FC43 /* Assets.xcassets */,
+				DCB5FA051DC8C70F0030FC43 /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB5F9EB1DC8C70F0030FC43 /* VoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB5FA0C1DC8C70F0030FC43 /* Build configuration list for PBXNativeTarget "VoteApp" */;
+			buildPhases = (
+				1D9F47DD329150B4DE225340 /* [CP] Check Pods Manifest.lock */,
+				DCB5F9EA1DC8C70F0030FC43 /* Resources */,
+				DCB5FA0B1DC8C70F0030FC43 /* Embed App Extensions */,
+				BAA38EB0F70FDA81D8F41C57 /* Frameworks */,
+				6069AF35BB210E780CCEDEDC /* [CP] Copy Pods Resources */,
+				383911F5EECBE407BBE2C3A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB5F9F91DC8C70F0030FC43 /* PBXTargetDependency */,
+			);
+			name = VoteApp;
+			productName = VoteApp;
+			productReference = DCB5F9EC1DC8C70F0030FC43 /* VoteApp.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		DCB5F9F51DC8C70F0030FC43 /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB5FA081DC8C70F0030FC43 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				8BF6A18D5DABDA37951090DE /* [CP] Check Pods Manifest.lock */,
+				DCB5F9F21DC8C70F0030FC43 /* Sources */,
+				DCB5F9F31DC8C70F0030FC43 /* Frameworks */,
+				DCB5F9F41DC8C70F0030FC43 /* Resources */,
+				B984A87F17220FF5497BDB03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = DCB5F9F61DC8C70F0030FC43 /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB5F9E61DC8C70F0030FC43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ellina Kuznetcova";
+				TargetAttributes = {
+					DCB5F9EB1DC8C70F0030FC43 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C9ZJ96D59R;
+						ProvisioningStyle = Automatic;
+					};
+					DCB5F9F51DC8C70F0030FC43 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C9ZJ96D59R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCB5F9E91DC8C70F0030FC43 /* Build configuration list for PBXProject "VoteApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB5F9E51DC8C70F0030FC43;
+			productRefGroup = DCB5F9ED1DC8C70F0030FC43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB5F9EB1DC8C70F0030FC43 /* VoteApp */,
+				DCB5F9F51DC8C70F0030FC43 /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB5F9EA1DC8C70F0030FC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5F9F01DC8C70F0030FC43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5F9F41DC8C70F0030FC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5FA041DC8C70F0030FC43 /* Assets.xcassets in Resources */,
+				DCB5FA021DC8C70F0030FC43 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D9F47DD329150B4DE225340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		383911F5EECBE407BBE2C3A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-VoteApp/Pods-Abstract-VoteApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6069AF35BB210E780CCEDEDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-VoteApp/Pods-Abstract-VoteApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF6A18D5DABDA37951090DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B984A87F17220FF5497BDB03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-MessagesExtension/Pods-Abstract-MessagesExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB5F9F21DC8C70F0030FC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5FA141DC8E7DE0030FC43 /* CompactViewController.swift in Sources */,
+				DCB5F9FF1DC8C70F0030FC43 /* MessagesViewController.swift in Sources */,
+				DCB5FA101DC8CE5D0030FC43 /* ExpandedViewController.swift in Sources */,
+				DC5635A91DCE297300E4840B /* PollEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB5F9F91DC8C70F0030FC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB5F9F51DC8C70F0030FC43 /* MessagesExtension */;
+			targetProxy = DCB5F9F81DC8C70F0030FC43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB5FA001DC8C70F0030FC43 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB5FA011DC8C70F0030FC43 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB5FA061DC8C70F0030FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB5FA071DC8C70F0030FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB5FA091DC8C70F0030FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E986ACCC82778BE3DDFDAAE /* Pods-Abstract-MessagesExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = C9ZJ96D59R;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eldkuznetcova.VoteApp1.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCB5FA0A1DC8C70F0030FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32424C6FA93C9B93C60A587E /* Pods-Abstract-MessagesExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = C9ZJ96D59R;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eldkuznetcova.VoteApp1.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DCB5FA0D1DC8C70F0030FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB6646EA54790B6C0F12530 /* Pods-Abstract-VoteApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C9ZJ96D59R;
+				INFOPLIST_FILE = VoteApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eldkuznetcova.VoteApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB5FA0E1DC8C70F0030FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B350645C3A478E2B8E108B /* Pods-Abstract-VoteApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C9ZJ96D59R;
+				INFOPLIST_FILE = VoteApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eldkuznetcova.VoteApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB5F9E91DC8C70F0030FC43 /* Build configuration list for PBXProject "VoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5FA061DC8C70F0030FC43 /* Debug */,
+				DCB5FA071DC8C70F0030FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB5FA081DC8C70F0030FC43 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5FA091DC8C70F0030FC43 /* Debug */,
+				DCB5FA0A1DC8C70F0030FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB5FA0C1DC8C70F0030FC43 /* Build configuration list for PBXNativeTarget "VoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5FA0D1DC8C70F0030FC43 /* Debug */,
+				DCB5FA0E1DC8C70F0030FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB5F9E61DC8C70F0030FC43 /* Project object */;
+}

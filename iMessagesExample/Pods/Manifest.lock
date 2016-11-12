@@ -1,0 +1,12 @@
+PODS:
+  - ObjectMapper (2.1.0)
+
+DEPENDENCIES:
+  - ObjectMapper
+
+SPEC CHECKSUMS:
+  ObjectMapper: e5e0f8aef8590fc2ddcde7f27eddb255863ee6e9
+
+PODFILE CHECKSUM: a635da266148c6059888f593f9034b9ea6f2e3ad
+
+COCOAPODS: 1.0.1
