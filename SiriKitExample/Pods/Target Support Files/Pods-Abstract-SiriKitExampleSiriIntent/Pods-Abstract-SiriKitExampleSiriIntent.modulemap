@@ -1,0 +1,6 @@
+framework module Pods_Abstract_SiriKitExampleSiriIntent {
+  umbrella header "Pods-Abstract-SiriKitExampleSiriIntent-umbrella.h"
+
+  export *
+  module * { export * }
+}
