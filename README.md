@@ -8,6 +8,7 @@
 * [AFNetworking example](/AFNetworkingExample) (Пример использования AFNetworking. Рекомендацию по использованию.)
 * [SDWebImage example](/SDWebImageExample) (Пример использования SDWebImage)
 * [RestKit example](/RestKitExample) (Пример использования RestKit)
+* [Authorization/registration example](/Autorization:Registration Example) (Пример авторизации и регистрации)
 
 #Cocoa
 

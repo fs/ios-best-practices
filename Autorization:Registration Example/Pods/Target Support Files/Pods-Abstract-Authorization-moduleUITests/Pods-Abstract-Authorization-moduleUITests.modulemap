@@ -1,0 +1,6 @@
+framework module Pods_Abstract_Swift_BaseUITests {
+  umbrella header "Pods-Abstract-Authorization-moduleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

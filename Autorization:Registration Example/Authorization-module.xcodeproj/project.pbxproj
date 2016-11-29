@@ -1,0 +1,1756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1710DE5F1C453AF800912C5B /* Swift_BaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710DE5E1C453AF800912C5B /* Swift_BaseUITests.swift */; };
+		17DD8D141D1024940080CD19 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DD8D131D1024940080CD19 /* Authorization.storyboard */; };
+		17DD8D171D1026960080CD19 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD8D161D1026960080CD19 /* StartViewController.swift */; };
+		17DD8D191D1026A20080CD19 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD8D181D1026A20080CD19 /* SignUpViewController.swift */; };
+		17DD8D1B1D1026A70080CD19 /* SignUpWithEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD8D1A1D1026A70080CD19 /* SignUpWithEmailViewController.swift */; };
+		17DD8D1E1D1029550080CD19 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DD8D1C1D1029550080CD19 /* FBSDKCoreKit.framework */; };
+		17DD8D1F1D1029550080CD19 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DD8D1D1D1029550080CD19 /* FBSDKLoginKit.framework */; };
+		17DD8D211D102E6C0080CD19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DD8D201D102E6C0080CD19 /* GoogleService-Info.plist */; };
+		17DD8D221D102E6C0080CD19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DD8D201D102E6C0080CD19 /* GoogleService-Info.plist */; };
+		17DD8D231D102E6C0080CD19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DD8D201D102E6C0080CD19 /* GoogleService-Info.plist */; };
+		17DD8D271D10336E0080CD19 /* AuthorizationAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD8D261D10336E0080CD19 /* AuthorizationAPIManager.swift */; };
+		17DD8D291D1039260080CD19 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD8D281D1039260080CD19 /* ForgotPasswordViewController.swift */; };
+		2124DFA01A8DF48000422313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2124DF9F1A8DF48000422313 /* ViewController.swift */; };
+		212D018E1BB1986B00B34340 /* Swift_BaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212D018D1BB1986B00B34340 /* Swift_BaseTests.swift */; };
+		213B89BF19F01A1E005D3749 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213B89BE19F01A1E005D3749 /* CoreGraphics.framework */; };
+		214F4FF21BFDC2CF0084BE32 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214F4FF11BFDC2CF0084BE32 /* Extensions.swift */; };
+		214F4FF41BFDC2D90084BE32 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214F4FF31BFDC2D90084BE32 /* Helpers.swift */; };
+		214F4FF61BFDC35C0084BE32 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214F4FF51BFDC35C0084BE32 /* Protocols.swift */; };
+		2158286D1A91E2F200833BE6 /* mogend.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2158286B1A91E2F200833BE6 /* mogend.sh */; };
+		2158286F1A91E56600833BE6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158286E1A91E56600833BE6 /* APIManager.swift */; };
+		218C64B81BA078BA00EEEDF1 /* Authorization-module.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 218C64B61BA078BA00EEEDF1 /* Authorization-module.xcdatamodeld */; };
+		218C64C01BA07DDE00EEEDF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218C64BD1BA07DDE00EEEDF1 /* Localizable.strings */; };
+		21DB301519DD2289003A418D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB301419DD2289003A418D /* AppDelegate.swift */; };
+		21DB301F19DD2289003A418D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DB301E19DD2289003A418D /* Images.xcassets */; };
+		21DB304919DD2D6D003A418D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB304819DD2D6D003A418D /* Constants.swift */; };
+		21E157E21BB3EDF40041FCE4 /* FSTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E157E11BB3EDF40041FCE4 /* FSTestHelpers.swift */; };
+		21E617E31CE60676005D67E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */; };
+		2AA988380CB5F0BA261165A1 /* Pods_Abstract_Swift_BaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E04C71AF697F9F512C851E /* Pods_Abstract_Swift_BaseTests.framework */; };
+		81ABC4E5D5B644C560E0AA21 /* Pods_Abstract_Swift_BaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9091B29869F8A46A78676A7 /* Pods_Abstract_Swift_BaseUITests.framework */; };
+		E7566D9F1A1F85CB00DE3010 /* Main_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7566DA11A1F85CB00DE3010 /* Main_Storyboard.storyboard */; };
+		EEC725679E678BA791351397 /* Pods_Abstract_Swift_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DE0E16F1FA73404577138C /* Pods_Abstract_Swift_Base.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		21DB304A19DD32B1003A418D /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = wrapper.xcdatamodeld;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILES_DIR)/$(INPUT_FILE_BASE).mom",
+			);
+			script = "echo \"Running mogend (Data model version files)\"\n\"${PROJECT_DIR}/Authorization-module/Scripts/mogend.sh\"";
+		};
+		21DB304B19DD32D9003A418D /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = wrapper.xcdatamodel;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILES_DIR)/$(INPUT_FILE_BASE).momd",
+			);
+			script = "echo \"Running mogend (Data model files)\"\n\"${PROJECT_DIR}/Authorization-module/Scripts/mogend.sh";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		1710DE611C453AF800912C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DB300719DD2289003A418D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DB300E19DD2289003A418D;
+			remoteInfo = "Authorization-module";
+		};
+		212D01901BB1986B00B34340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21DB300719DD2289003A418D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DB300E19DD2289003A418D;
+			remoteInfo = "Authorization-module";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020C4A5E30B743EDD370DB89 /* Pods-Abstract-Authorization-module.test staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-module.test staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module.test staging.xcconfig"; sourceTree = "<group>"; };
+		1218E154FF6E17259B67BF8D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1710DE5C1C453AF700912C5B /* Authorization-moduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Authorization-moduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1710DE5E1C453AF800912C5B /* Swift_BaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_BaseUITests.swift; sourceTree = "<group>"; };
+		1710DE601C453AF800912C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DD8D131D1024940080CD19 /* Authorization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
+		17DD8D161D1026960080CD19 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		17DD8D181D1026A20080CD19 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		17DD8D1A1D1026A70080CD19 /* SignUpWithEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpWithEmailViewController.swift; sourceTree = "<group>"; };
+		17DD8D1C1D1029550080CD19 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		17DD8D1D1D1029550080CD19 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		17DD8D201D102E6C0080CD19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17DD8D261D10336E0080CD19 /* AuthorizationAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationAPIManager.swift; sourceTree = "<group>"; };
+		17DD8D281D1039260080CD19 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		194478471AAF90AF00A34744 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		19D856C11AB5ED2E0014C459 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = build.sh; path = Scripts/build.sh; sourceTree = "<group>"; };
+		19D856C51AB5ED2E0014C459 /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = test.sh; path = Scripts/test.sh; sourceTree = "<group>"; };
+		19D856C71AB5EDDF0014C459 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
+		1EEA300C1693C74958C4FE90 /* Pods-Abstract-Authorization-module.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-module.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module.debug.xcconfig"; sourceTree = "<group>"; };
+		2124DF9F1A8DF48000422313 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212D018B1BB1986B00B34340 /* Authorization-moduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Authorization-moduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212D018D1BB1986B00B34340 /* Swift_BaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_BaseTests.swift; sourceTree = "<group>"; };
+		212D018F1BB1986B00B34340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213B89BE19F01A1E005D3749 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		213B89C019F01A40005D3749 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		214F4FF11BFDC2CF0084BE32 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		214F4FF31BFDC2D90084BE32 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		214F4FF51BFDC35C0084BE32 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		21513BBD19EBCBFA00EE6273 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2158286B1A91E2F200833BE6 /* mogend.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = mogend.sh; path = Scripts/mogend.sh; sourceTree = "<group>"; };
+		2158286E1A91E56600833BE6 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		218C64B71BA078BA00EEEDF1 /* Authorization-module.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Authorization-module.xcdatamodel"; sourceTree = "<group>"; };
+		218C64BB1BA07D3800EEEDF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_Storyboard.strings; sourceTree = "<group>"; };
+		218C64C21BA07E1F00EEEDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		218C64C31BA07E4300EEEDF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		21C9F2DF19E833300084D18D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		21DB300F19DD2289003A418D /* Authorization-module.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Authorization-module.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DB301319DD2289003A418D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DB301419DD2289003A418D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21DB301E19DD2289003A418D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21DB303819DD2341003A418D /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		21DB304819DD2D6D003A418D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21E157E11BB3EDF40041FCE4 /* FSTestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FSTestHelpers.swift; path = "Authorization-moduleTests/FSTestHelpers.swift"; sourceTree = "<group>"; };
+		21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21E617E41CE61BBF005D67E0 /* generate_entities.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = generate_entities.sh; sourceTree = SOURCE_ROOT; };
+		24CD8CBBB8A679E300A592E5 /* Pods-Abstract-Authorization-module.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-module.test.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module.test.xcconfig"; sourceTree = "<group>"; };
+		34CEE7B0A1468777DB0D6EF8 /* Pods-Abstract-Authorization-moduleUITests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleUITests.test.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests.test.xcconfig"; sourceTree = "<group>"; };
+		38B1BC0F25415CD477A6B5B8 /* Pods-Abstract-Authorization-moduleUITests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleUITests.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests.release staging.xcconfig"; sourceTree = "<group>"; };
+		3A5FE293BB9438C1AE339D7F /* Pods-Abstract-Authorization-module.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-module.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module.release staging.xcconfig"; sourceTree = "<group>"; };
+		51A0D6856BD58979B29B2269 /* Pods-Abstract-Authorization-moduleTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests.appstore.xcconfig"; sourceTree = "<group>"; };
+		62261FC7DE20C9A6ACA0BAE4 /* Pods-Abstract-Authorization-moduleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64B3F1B9224ADD02041E18AA /* Pods-Abstract-Authorization-moduleUITests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleUITests.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests.debug staging.xcconfig"; sourceTree = "<group>"; };
+		6E2293E2DC3390EAB27468D6 /* Pods-Abstract-Authorization-moduleTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests.test.xcconfig"; sourceTree = "<group>"; };
+		6FF19AC0520F67714729E8C3 /* Pods-Abstract-Authorization-moduleUITests.test staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleUITests.test staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests.test staging.xcconfig"; sourceTree = "<group>"; };
+		71DE0E16F1FA73404577138C /* Pods_Abstract_Swift_Base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_Base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		777CEADF0A3987259CB4C60D /* Pods-Abstract-Authorization-moduleTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleTests.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests.debug staging.xcconfig"; sourceTree = "<group>"; };
+		7EDBE43BF809E4BF3F085A1F /* Pods-Abstract-Authorization-moduleTests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleTests.release staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests.release staging.xcconfig"; sourceTree = "<group>"; };
+		98101F9FE1B08B9670240835 /* Pods-Abstract-Authorization-module.appstore debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-module.appstore debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module.appstore debug.xcconfig"; sourceTree = "<group>"; };
+		9E9AF561EE2CD0A3A7DDD0CF /* Pods-Abstract-Authorization-module.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-module.debug staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module.debug staging.xcconfig"; sourceTree = "<group>"; };
+		9FE58E7B2053F4AFF188DF61 /* Pods-Abstract-Authorization-moduleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5D1F97F5C59B62E7E84E1B /* Pods-Abstract-Authorization-module.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-module.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module.appstore.xcconfig"; sourceTree = "<group>"; };
+		B27D5D57B204407114491374 /* Pods-Abstract-Authorization-moduleUITests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleUITests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests.appstore.xcconfig"; sourceTree = "<group>"; };
+		B4B0F73B11F25FEB89C85F54 /* Pods-Abstract-Authorization-moduleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8D82C4F4021CFF6F5F5CC68 /* Pods-Abstract-Authorization-moduleUITests.appstore debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleUITests.appstore debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests.appstore debug.xcconfig"; sourceTree = "<group>"; };
+		C7E04C71AF697F9F512C851E /* Pods_Abstract_Swift_BaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_BaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36E011C9F5B75FAD1EAB225 /* Pods-Abstract-Authorization-moduleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9091B29869F8A46A78676A7 /* Pods_Abstract_Swift_BaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_Swift_BaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52012F8C989ECF5309835D0 /* Pods-Abstract-Authorization-moduleTests.appstore debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleTests.appstore debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests.appstore debug.xcconfig"; sourceTree = "<group>"; };
+		E7566DA01A1F85CB00DE3010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_Storyboard.storyboard; sourceTree = "<group>"; };
+		EE03134474C0070BF8DA767B /* Pods-Abstract-Authorization-module.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-module.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module.release.xcconfig"; sourceTree = "<group>"; };
+		FC6E3D360349BB799F9BA741 /* Pods-Abstract-Authorization-moduleTests.test staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-Authorization-moduleTests.test staging.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests.test staging.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1710DE591C453AF700912C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABC4E5D5B644C560E0AA21 /* Pods_Abstract_Swift_BaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212D01881BB1986B00B34340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA988380CB5F0BA261165A1 /* Pods_Abstract_Swift_BaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DB300C19DD2289003A418D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213B89BF19F01A1E005D3749 /* CoreGraphics.framework in Frameworks */,
+				17DD8D1E1D1029550080CD19 /* FBSDKCoreKit.framework in Frameworks */,
+				17DD8D1F1D1029550080CD19 /* FBSDKLoginKit.framework in Frameworks */,
+				EEC725679E678BA791351397 /* Pods_Abstract_Swift_Base.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1710DE5D1C453AF800912C5B /* Authorization-moduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1710DE5E1C453AF800912C5B /* Swift_BaseUITests.swift */,
+				1710DE601C453AF800912C5B /* Info.plist */,
+			);
+			path = "Authorization-moduleUITests";
+			sourceTree = "<group>";
+		};
+		17DD8D151D1026850080CD19 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				17DD8D161D1026960080CD19 /* StartViewController.swift */,
+				17DD8D181D1026A20080CD19 /* SignUpViewController.swift */,
+				17DD8D1A1D1026A70080CD19 /* SignUpWithEmailViewController.swift */,
+				17DD8D281D1039260080CD19 /* ForgotPasswordViewController.swift */,
+			);
+			name = Authorization;
+			sourceTree = "<group>";
+		};
+		196D6E161BAB0736000B7997 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				214F4FF31BFDC2D90084BE32 /* Helpers.swift */,
+				214F4FF11BFDC2CF0084BE32 /* Extensions.swift */,
+				214F4FF51BFDC35C0084BE32 /* Protocols.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		19C66A341C1DC54800C44FE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19D856BF1AB5ECF50014C459 /* Travis CI */ = {
+			isa = PBXGroup;
+			children = (
+				19D856C71AB5EDDF0014C459 /* .travis.yml */,
+				19D856C11AB5ED2E0014C459 /* build.sh */,
+				19D856C51AB5ED2E0014C459 /* test.sh */,
+			);
+			name = "Travis CI";
+			sourceTree = "<group>";
+		};
+		212D01801BB1977100B34340 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				21E157E11BB3EDF40041FCE4 /* FSTestHelpers.swift */,
+				212D018C1BB1986B00B34340 /* UnitTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		212D018C1BB1986B00B34340 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				212D018D1BB1986B00B34340 /* Swift_BaseTests.swift */,
+				212D018F1BB1986B00B34340 /* Info.plist */,
+			);
+			name = UnitTests;
+			path = "Authorization-moduleTests";
+			sourceTree = "<group>";
+		};
+		215828691A91E2E000833BE6 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				21E617E41CE61BBF005D67E0 /* generate_entities.sh */,
+				19D856BF1AB5ECF50014C459 /* Travis CI */,
+				2158286B1A91E2F200833BE6 /* mogend.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		218C64B41BA078BA00EEEDF1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				218C64B51BA078BA00EEEDF1 /* Private */,
+				218C64B61BA078BA00EEEDF1 /* Authorization-module.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		218C64B51BA078BA00EEEDF1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		218C64BC1BA07DDE00EEEDF1 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				218C64BD1BA07DDE00EEEDF1 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		21DB300619DD2289003A418D = {
+			isa = PBXGroup;
+			children = (
+				21DB301119DD2289003A418D /* Authorization-module */,
+				212D01801BB1977100B34340 /* Tests */,
+				1710DE5D1C453AF800912C5B /* Authorization-moduleUITests */,
+				21DB301019DD2289003A418D /* Products */,
+				5C5B41AD2B6E0DFDD4D53E6B /* Frameworks */,
+				35A5DC772BDBEE89744BCCF8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		21DB301019DD2289003A418D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21DB300F19DD2289003A418D /* Authorization-module.app */,
+				212D018B1BB1986B00B34340 /* Authorization-moduleTests.xctest */,
+				1710DE5C1C453AF700912C5B /* Authorization-moduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21DB301119DD2289003A418D /* Authorization-module */ = {
+			isa = PBXGroup;
+			children = (
+				21DB304819DD2D6D003A418D /* Constants.swift */,
+				21DB301419DD2289003A418D /* AppDelegate.swift */,
+				17DD8D131D1024940080CD19 /* Authorization.storyboard */,
+				E7566DA11A1F85CB00DE3010 /* Main_Storyboard.storyboard */,
+				21E617E21CE60676005D67E0 /* LaunchScreen.storyboard */,
+				21DB301E19DD2289003A418D /* Images.xcassets */,
+				196D6E161BAB0736000B7997 /* Helpers */,
+				E736C5E11A25CF8200B8986E /* API */,
+				218C64B41BA078BA00EEEDF1 /* CoreData */,
+				19C66A341C1DC54800C44FE3 /* Classes */,
+				E731DC711A1CB30C00E12CBA /* Views */,
+				E736C5A41A252B1500B8986E /* Controllers */,
+				21DB301219DD2289003A418D /* Supporting Files */,
+			);
+			path = "Authorization-module";
+			sourceTree = "<group>";
+		};
+		21DB301219DD2289003A418D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				218C64BC1BA07DDE00EEEDF1 /* Localization */,
+				21DB301319DD2289003A418D /* Info.plist */,
+				17DD8D201D102E6C0080CD19 /* GoogleService-Info.plist */,
+				21DB303819DD2341003A418D /* BridgeHeader.h */,
+				215828691A91E2E000833BE6 /* Scripts */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35A5DC772BDBEE89744BCCF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA300C1693C74958C4FE90 /* Pods-Abstract-Authorization-module.debug.xcconfig */,
+				98101F9FE1B08B9670240835 /* Pods-Abstract-Authorization-module.appstore debug.xcconfig */,
+				9E9AF561EE2CD0A3A7DDD0CF /* Pods-Abstract-Authorization-module.debug staging.xcconfig */,
+				EE03134474C0070BF8DA767B /* Pods-Abstract-Authorization-module.release.xcconfig */,
+				24CD8CBBB8A679E300A592E5 /* Pods-Abstract-Authorization-module.test.xcconfig */,
+				AF5D1F97F5C59B62E7E84E1B /* Pods-Abstract-Authorization-module.appstore.xcconfig */,
+				3A5FE293BB9438C1AE339D7F /* Pods-Abstract-Authorization-module.release staging.xcconfig */,
+				020C4A5E30B743EDD370DB89 /* Pods-Abstract-Authorization-module.test staging.xcconfig */,
+				9FE58E7B2053F4AFF188DF61 /* Pods-Abstract-Authorization-moduleTests.debug.xcconfig */,
+				E52012F8C989ECF5309835D0 /* Pods-Abstract-Authorization-moduleTests.appstore debug.xcconfig */,
+				777CEADF0A3987259CB4C60D /* Pods-Abstract-Authorization-moduleTests.debug staging.xcconfig */,
+				B4B0F73B11F25FEB89C85F54 /* Pods-Abstract-Authorization-moduleTests.release.xcconfig */,
+				6E2293E2DC3390EAB27468D6 /* Pods-Abstract-Authorization-moduleTests.test.xcconfig */,
+				51A0D6856BD58979B29B2269 /* Pods-Abstract-Authorization-moduleTests.appstore.xcconfig */,
+				7EDBE43BF809E4BF3F085A1F /* Pods-Abstract-Authorization-moduleTests.release staging.xcconfig */,
+				FC6E3D360349BB799F9BA741 /* Pods-Abstract-Authorization-moduleTests.test staging.xcconfig */,
+				62261FC7DE20C9A6ACA0BAE4 /* Pods-Abstract-Authorization-moduleUITests.debug.xcconfig */,
+				B8D82C4F4021CFF6F5F5CC68 /* Pods-Abstract-Authorization-moduleUITests.appstore debug.xcconfig */,
+				64B3F1B9224ADD02041E18AA /* Pods-Abstract-Authorization-moduleUITests.debug staging.xcconfig */,
+				D36E011C9F5B75FAD1EAB225 /* Pods-Abstract-Authorization-moduleUITests.release.xcconfig */,
+				34CEE7B0A1468777DB0D6EF8 /* Pods-Abstract-Authorization-moduleUITests.test.xcconfig */,
+				B27D5D57B204407114491374 /* Pods-Abstract-Authorization-moduleUITests.appstore.xcconfig */,
+				38B1BC0F25415CD477A6B5B8 /* Pods-Abstract-Authorization-moduleUITests.release staging.xcconfig */,
+				6FF19AC0520F67714729E8C3 /* Pods-Abstract-Authorization-moduleUITests.test staging.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C5B41AD2B6E0DFDD4D53E6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194478471AAF90AF00A34744 /* SenTestingKit.framework */,
+				17DD8D1C1D1029550080CD19 /* FBSDKCoreKit.framework */,
+				17DD8D1D1D1029550080CD19 /* FBSDKLoginKit.framework */,
+				213B89C019F01A40005D3749 /* SpriteKit.framework */,
+				213B89BE19F01A1E005D3749 /* CoreGraphics.framework */,
+				21513BBD19EBCBFA00EE6273 /* MediaPlayer.framework */,
+				21C9F2DF19E833300084D18D /* AVFoundation.framework */,
+				1218E154FF6E17259B67BF8D /* Pods.framework */,
+				71DE0E16F1FA73404577138C /* Pods_Abstract_Swift_Base.framework */,
+				C7E04C71AF697F9F512C851E /* Pods_Abstract_Swift_BaseTests.framework */,
+				D9091B29869F8A46A78676A7 /* Pods_Abstract_Swift_BaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E731DC711A1CB30C00E12CBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E736C5A41A252B1500B8986E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17DD8D151D1026850080CD19 /* Authorization */,
+				2124DF9F1A8DF48000422313 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E736C5E11A25CF8200B8986E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2158286E1A91E56600833BE6 /* APIManager.swift */,
+				17DD8D261D10336E0080CD19 /* AuthorizationAPIManager.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1710DE5B1C453AF700912C5B /* Authorization-moduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1710DE6B1C453AF800912C5B /* Build configuration list for PBXNativeTarget "Authorization-moduleUITests" */;
+			buildPhases = (
+				89E91AAF0FB90E6F0FF929E5 /* 📦 Check Pods Manifest.lock */,
+				1710DE581C453AF700912C5B /* Sources */,
+				1710DE591C453AF700912C5B /* Frameworks */,
+				1710DE5A1C453AF700912C5B /* Resources */,
+				0785C3FD82F5A4CEF5C1AC4F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1710DE621C453AF800912C5B /* PBXTargetDependency */,
+			);
+			name = "Authorization-moduleUITests";
+			productName = "Authorization-moduleUITests";
+			productReference = 1710DE5C1C453AF700912C5B /* Authorization-moduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		212D018A1BB1986B00B34340 /* Authorization-moduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212D01921BB1986B00B34340 /* Build configuration list for PBXNativeTarget "Authorization-moduleTests" */;
+			buildPhases = (
+				0ACA543E4B3B0E6EB48E63C8 /* 📦 Check Pods Manifest.lock */,
+				212D01871BB1986B00B34340 /* Sources */,
+				212D01881BB1986B00B34340 /* Frameworks */,
+				212D01891BB1986B00B34340 /* Resources */,
+				1F35F343FE9DD3287707261D /* 📦 Embed Pods Frameworks */,
+				27B807D70486544FDB85DAA6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212D01911BB1986B00B34340 /* PBXTargetDependency */,
+			);
+			name = "Authorization-moduleTests";
+			productName = "Authorization-moduleTests";
+			productReference = 212D018B1BB1986B00B34340 /* Authorization-moduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21DB300E19DD2289003A418D /* Authorization-module */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DB303119DD2289003A418D /* Build configuration list for PBXNativeTarget "Authorization-module" */;
+			buildPhases = (
+				A6DB15C2BC155A2623DF25F0 /* 📦 Check Pods Manifest.lock */,
+				21DB300B19DD2289003A418D /* Sources */,
+				21DB300C19DD2289003A418D /* Frameworks */,
+				21DB300D19DD2289003A418D /* Resources */,
+				21B3D19F19E6E2B700EF0D52 /* ShellScript */,
+				97E8D7A0CF9962C339626CAC /* 📦 Embed Pods Frameworks */,
+				6A105BDE6BBF4E1ACD2AAE0F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+				21DB304B19DD32D9003A418D /* PBXBuildRule */,
+				21DB304A19DD32B1003A418D /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "Authorization-module";
+			productName = "Authorization-module";
+			productReference = 21DB300F19DD2289003A418D /* Authorization-module.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21DB300719DD2289003A418D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0710;
+				LastTestingUpgradeCheck = 0700;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Flatstack;
+				TargetAttributes = {
+					1710DE5B1C453AF700912C5B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 21DB300E19DD2289003A418D;
+					};
+					212D018A1BB1986B00B34340 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 21DB300E19DD2289003A418D;
+					};
+					21DB300E19DD2289003A418D = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = Y49MTY8CU2;
+					};
+				};
+			};
+			buildConfigurationList = 21DB300A19DD2289003A418D /* Build configuration list for PBXProject "Authorization-module" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+				en,
+			);
+			mainGroup = 21DB300619DD2289003A418D;
+			productRefGroup = 21DB301019DD2289003A418D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21DB300E19DD2289003A418D /* Authorization-module */,
+				212D018A1BB1986B00B34340 /* Authorization-moduleTests */,
+				1710DE5B1C453AF700912C5B /* Authorization-moduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1710DE5A1C453AF700912C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DD8D231D102E6C0080CD19 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212D01891BB1986B00B34340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DD8D221D102E6C0080CD19 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DB300D19DD2289003A418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DD8D141D1024940080CD19 /* Authorization.storyboard in Resources */,
+				E7566D9F1A1F85CB00DE3010 /* Main_Storyboard.storyboard in Resources */,
+				218C64C01BA07DDE00EEEDF1 /* Localizable.strings in Resources */,
+				17DD8D211D102E6C0080CD19 /* GoogleService-Info.plist in Resources */,
+				2158286D1A91E2F200833BE6 /* mogend.sh in Resources */,
+				21E617E31CE60676005D67E0 /* LaunchScreen.storyboard in Resources */,
+				21DB301F19DD2289003A418D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0785C3FD82F5A4CEF5C1AC4F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-Authorization-moduleUITests/Pods-Abstract-Authorization-moduleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ACA543E4B3B0E6EB48E63C8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F35F343FE9DD3287707261D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21B3D19F19E6E2B700EF0D52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\"${PODS_ROOT}/Fabric/Fabric.framework/run\" api_key build_secret";
+		};
+		27B807D70486544FDB85DAA6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-Authorization-moduleTests/Pods-Abstract-Authorization-moduleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A105BDE6BBF4E1ACD2AAE0F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E91AAF0FB90E6F0FF929E5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97E8D7A0CF9962C339626CAC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-Authorization-module/Pods-Abstract-Authorization-module-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DB15C2BC155A2623DF25F0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1710DE581C453AF700912C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1710DE5F1C453AF800912C5B /* Swift_BaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212D01871BB1986B00B34340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212D018E1BB1986B00B34340 /* Swift_BaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DB300B19DD2289003A418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DD8D191D1026A20080CD19 /* SignUpViewController.swift in Sources */,
+				218C64B81BA078BA00EEEDF1 /* Authorization-module.xcdatamodeld in Sources */,
+				21E157E21BB3EDF40041FCE4 /* FSTestHelpers.swift in Sources */,
+				2124DFA01A8DF48000422313 /* ViewController.swift in Sources */,
+				214F4FF61BFDC35C0084BE32 /* Protocols.swift in Sources */,
+				17DD8D271D10336E0080CD19 /* AuthorizationAPIManager.swift in Sources */,
+				214F4FF41BFDC2D90084BE32 /* Helpers.swift in Sources */,
+				17DD8D171D1026960080CD19 /* StartViewController.swift in Sources */,
+				17DD8D291D1039260080CD19 /* ForgotPasswordViewController.swift in Sources */,
+				21DB301519DD2289003A418D /* AppDelegate.swift in Sources */,
+				2158286F1A91E56600833BE6 /* APIManager.swift in Sources */,
+				21DB304919DD2D6D003A418D /* Constants.swift in Sources */,
+				214F4FF21BFDC2CF0084BE32 /* Extensions.swift in Sources */,
+				17DD8D1B1D1026A70080CD19 /* SignUpWithEmailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1710DE621C453AF800912C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DB300E19DD2289003A418D /* Authorization-module */;
+			targetProxy = 1710DE611C453AF800912C5B /* PBXContainerItemProxy */;
+		};
+		212D01911BB1986B00B34340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DB300E19DD2289003A418D /* Authorization-module */;
+			targetProxy = 212D01901BB1986B00B34340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		218C64BD1BA07DDE00EEEDF1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218C64C21BA07E1F00EEEDF1 /* Base */,
+				218C64C31BA07E4300EEEDF1 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E7566DA11A1F85CB00DE3010 /* Main_Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7566DA01A1F85CB00DE3010 /* Base */,
+				218C64BB1BA07D3800EEEDF1 /* ru */,
+			);
+			name = Main_Storyboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1710DE631C453AF800912C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62261FC7DE20C9A6ACA0BAE4 /* Pods-Abstract-Authorization-moduleUITests.debug.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Authorization-moduleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Authorization-moduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Authorization-module";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1710DE641C453AF800912C5B /* AppStore Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D82C4F4021CFF6F5F5CC68 /* Pods-Abstract-Authorization-moduleUITests.appstore debug.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Authorization-moduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Authorization-module";
+				USES_XCTRUNNER = YES;
+			};
+			name = "AppStore Debug";
+		};
+		1710DE651C453AF800912C5B /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B3F1B9224ADD02041E18AA /* Pods-Abstract-Authorization-moduleUITests.debug staging.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Authorization-moduleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Authorization-moduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Authorization-module";
+				USES_XCTRUNNER = YES;
+			};
+			name = "Debug Staging";
+		};
+		1710DE661C453AF800912C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36E011C9F5B75FAD1EAB225 /* Pods-Abstract-Authorization-moduleUITests.release.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Authorization-moduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Authorization-module";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		1710DE671C453AF800912C5B /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CEE7B0A1468777DB0D6EF8 /* Pods-Abstract-Authorization-moduleUITests.test.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Authorization-moduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Authorization-module";
+				USES_XCTRUNNER = YES;
+			};
+			name = Test;
+		};
+		1710DE681C453AF800912C5B /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27D5D57B204407114491374 /* Pods-Abstract-Authorization-moduleUITests.appstore.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Authorization-moduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Authorization-module";
+				USES_XCTRUNNER = YES;
+			};
+			name = AppStore;
+		};
+		1710DE691C453AF800912C5B /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B1BC0F25415CD477A6B5B8 /* Pods-Abstract-Authorization-moduleUITests.release staging.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Authorization-moduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Authorization-module";
+				USES_XCTRUNNER = YES;
+			};
+			name = "Release Staging";
+		};
+		1710DE6A1C453AF800912C5B /* Test Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF19AC0520F67714729E8C3 /* Pods-Abstract-Authorization-moduleUITests.test staging.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "FS.Authorization-moduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Authorization-module";
+				USES_XCTRUNNER = YES;
+			};
+			name = "Test Staging";
+		};
+		212D01811BB1978500B34340 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_VERSION = v1;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_HOST = "https://apple.com";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Test;
+		};
+		212D01821BB1978500B34340 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CD8CBBB8A679E300A592E5 /* Pods-Abstract-Authorization-module.test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_DISPLAY_NAME = "Authorization-module";
+				BUNDLE_ID = "com.flatstack.Authorization-module";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "Authorization-module/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -DTEST";
+				PRODUCT_NAME = "Authorization-module";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Authorization-module/BridgeHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Test;
+		};
+		212D01831BB1978B00B34340 /* Test Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_VERSION = v1;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_HOST = "https://apple.com";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Test Staging";
+		};
+		212D01841BB1978B00B34340 /* Test Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020C4A5E30B743EDD370DB89 /* Pods-Abstract-Authorization-module.test staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
+				BUNDLE_DISPLAY_NAME = "Authorization-module Staging";
+				BUNDLE_ID = "com.flatstack.Authorization-module.staging";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "Authorization-module/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -DTEST";
+				PRODUCT_NAME = "Authorization-module";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Authorization-module/BridgeHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Test Staging";
+		};
+		212D01851BB1981C00B34340 /* AppStore Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_VERSION = v1;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_HOST = "https://apple.com";
+			};
+			name = "AppStore Debug";
+		};
+		212D01861BB1981C00B34340 /* AppStore Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98101F9FE1B08B9670240835 /* Pods-Abstract-Authorization-module.appstore debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_DISPLAY_NAME = "Authorization-module";
+				BUNDLE_ID = "com.flatstack.Authorization-module";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "Authorization-module/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -DDEBUG";
+				PRODUCT_NAME = "Authorization-module";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Authorization-module/BridgeHeader.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "AppStore Debug";
+		};
+		212D01931BB1986B00B34340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE58E7B2053F4AFF188DF61 /* Pods-Abstract-Authorization-moduleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Authorization-moduleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Authorization-moduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authorization-module.app/Authorization-module";
+			};
+			name = Debug;
+		};
+		212D01941BB1986B00B34340 /* AppStore Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52012F8C989ECF5309835D0 /* Pods-Abstract-Authorization-moduleTests.appstore debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Authorization-moduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authorization-module.app/Authorization-module";
+			};
+			name = "AppStore Debug";
+		};
+		212D01951BB1986B00B34340 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777CEADF0A3987259CB4C60D /* Pods-Abstract-Authorization-moduleTests.debug staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Authorization-moduleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Authorization-moduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authorization-module.app/Authorization-module";
+			};
+			name = "Debug Staging";
+		};
+		212D01961BB1986B00B34340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B0F73B11F25FEB89C85F54 /* Pods-Abstract-Authorization-moduleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Authorization-moduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authorization-module.app/Authorization-module";
+			};
+			name = Release;
+		};
+		212D01971BB1986B00B34340 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2293E2DC3390EAB27468D6 /* Pods-Abstract-Authorization-moduleTests.test.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Authorization-moduleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Authorization-moduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authorization-module.app/Authorization-module";
+			};
+			name = Test;
+		};
+		212D01981BB1986B00B34340 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A0D6856BD58979B29B2269 /* Pods-Abstract-Authorization-moduleTests.appstore.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Authorization-moduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authorization-module.app/Authorization-module";
+			};
+			name = AppStore;
+		};
+		212D01991BB1986B00B34340 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EDBE43BF809E4BF3F085A1F /* Pods-Abstract-Authorization-moduleTests.release staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Authorization-moduleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Authorization-moduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authorization-module.app/Authorization-module";
+			};
+			name = "Release Staging";
+		};
+		212D019A1BB1986B00B34340 /* Test Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6E3D360349BB799F9BA741 /* Pods-Abstract-Authorization-moduleTests.test staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Authorization-moduleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Authorization-moduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authorization-module.app/Authorization-module";
+			};
+			name = "Test Staging";
+		};
+		21DB302F19DD2289003A418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_VERSION = v1;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_HOST = "https://apple.com";
+			};
+			name = Debug;
+		};
+		21DB303019DD2289003A418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_VERSION = v1;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_HOST = "https://apple.com";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21DB303219DD2289003A418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEA300C1693C74958C4FE90 /* Pods-Abstract-Authorization-module.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_DISPLAY_NAME = "Authorization-module";
+				BUNDLE_ID = "com.flatstack.Authorization-module";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "Authorization-module/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -DDEBUG";
+				PRODUCT_NAME = "Authorization-module";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Authorization-module/BridgeHeader.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		21DB303319DD2289003A418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE03134474C0070BF8DA767B /* Pods-Abstract-Authorization-module.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_DISPLAY_NAME = "Authorization-module";
+				BUNDLE_ID = "com.flatstack.Authorization-module";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "Authorization-module/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "Authorization-module";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Authorization-module/BridgeHeader.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		21DB304C19DD3B30003A418D /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_VERSION = v1;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_HOST = "https://apple.com";
+			};
+			name = "Debug Staging";
+		};
+		21DB304D19DD3B30003A418D /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9AF561EE2CD0A3A7DDD0CF /* Pods-Abstract-Authorization-module.debug staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
+				BUNDLE_DISPLAY_NAME = "Authorization-module Staging";
+				BUNDLE_ID = "com.flatstack.Authorization-module.staging";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "Authorization-module/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -DDEBUG";
+				PRODUCT_NAME = "Authorization-module";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Authorization-module/BridgeHeader.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug Staging";
+		};
+		21DB304F19DD3B48003A418D /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_VERSION = v1;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_HOST = "https://apple.com";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Staging";
+		};
+		21DB305019DD3B48003A418D /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5FE293BB9438C1AE339D7F /* Pods-Abstract-Authorization-module.release staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Staging";
+				BUNDLE_DISPLAY_NAME = "Authorization-module Staging";
+				BUNDLE_ID = "com.flatstack.Authorization-module.staging";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "Authorization-module/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "Authorization-module";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Authorization-module/BridgeHeader.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release Staging";
+		};
+		E736C5DE1A25320400B8986E /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_VERSION = v1;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				URL_HOST = "https://apple.com";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		E736C5DF1A25320400B8986E /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5D1F97F5C59B62E7E84E1B /* Pods-Abstract-Authorization-module.appstore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_DISPLAY_NAME = "Authorization-module";
+				BUNDLE_ID = "com.flatstack.Authorization-module";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "Authorization-module/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"QuartzCore\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = "Authorization-module";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Authorization-module/BridgeHeader.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1710DE6B1C453AF800912C5B /* Build configuration list for PBXNativeTarget "Authorization-moduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1710DE631C453AF800912C5B /* Debug */,
+				1710DE641C453AF800912C5B /* AppStore Debug */,
+				1710DE651C453AF800912C5B /* Debug Staging */,
+				1710DE661C453AF800912C5B /* Release */,
+				1710DE671C453AF800912C5B /* Test */,
+				1710DE681C453AF800912C5B /* AppStore */,
+				1710DE691C453AF800912C5B /* Release Staging */,
+				1710DE6A1C453AF800912C5B /* Test Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212D01921BB1986B00B34340 /* Build configuration list for PBXNativeTarget "Authorization-moduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212D01931BB1986B00B34340 /* Debug */,
+				212D01941BB1986B00B34340 /* AppStore Debug */,
+				212D01951BB1986B00B34340 /* Debug Staging */,
+				212D01961BB1986B00B34340 /* Release */,
+				212D01971BB1986B00B34340 /* Test */,
+				212D01981BB1986B00B34340 /* AppStore */,
+				212D01991BB1986B00B34340 /* Release Staging */,
+				212D019A1BB1986B00B34340 /* Test Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DB300A19DD2289003A418D /* Build configuration list for PBXProject "Authorization-module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DB302F19DD2289003A418D /* Debug */,
+				212D01851BB1981C00B34340 /* AppStore Debug */,
+				21DB304C19DD3B30003A418D /* Debug Staging */,
+				21DB303019DD2289003A418D /* Release */,
+				212D01811BB1978500B34340 /* Test */,
+				E736C5DE1A25320400B8986E /* AppStore */,
+				21DB304F19DD3B48003A418D /* Release Staging */,
+				212D01831BB1978B00B34340 /* Test Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DB303119DD2289003A418D /* Build configuration list for PBXNativeTarget "Authorization-module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DB303219DD2289003A418D /* Debug */,
+				212D01861BB1981C00B34340 /* AppStore Debug */,
+				21DB304D19DD3B30003A418D /* Debug Staging */,
+				21DB303319DD2289003A418D /* Release */,
+				212D01821BB1978500B34340 /* Test */,
+				E736C5DF1A25320400B8986E /* AppStore */,
+				21DB305019DD3B48003A418D /* Release Staging */,
+				212D01841BB1978B00B34340 /* Test Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		218C64B61BA078BA00EEEDF1 /* Authorization-module.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				218C64B71BA078BA00EEEDF1 /* Authorization-module.xcdatamodel */,
+			);
+			currentVersion = 218C64B71BA078BA00EEEDF1 /* Authorization-module.xcdatamodel */;
+			path = "Authorization-module.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21DB300719DD2289003A418D /* Project object */;
+}
