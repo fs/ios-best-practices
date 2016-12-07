@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M6j-dF-VOc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="GYu-w2-Ivn">
+            <objects>
+                <navigationController id="M6j-dF-VOc" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jbs-uz-vLw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="VII-r5-d4p" kind="relationship" relationship="rootViewController" id="oPm-kf-yaC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EPi-W8-Clx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1340" y="-57"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MW2-iD-ks0">
+            <objects>
+                <viewController id="VII-r5-d4p" customClass="ViewController" customModule="NotificationsExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ccU-t7-W35"/>
+                        <viewControllerLayoutGuide type="bottom" id="gPW-wl-cbF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bbC-LK-e5X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCs-gI-vl3">
+                                <rect key="frame" x="16" y="186" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEM-hM-mCw">
+                                <rect key="frame" x="214.5" y="96" width="86" height="30"/>
+                                <state key="normal" title="Remove first"/>
+                                <connections>
+                                    <action selector="removeNotification" destination="VII-r5-d4p" eventType="touchUpInside" id="yxa-nL-CDG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdY-FY-IUe">
+                                <rect key="frame" x="63" y="96" width="109" height="30"/>
+                                <state key="normal" title="Fire Notification"/>
+                                <connections>
+                                    <action selector="fireNotification" destination="VII-r5-d4p" eventType="touchUpInside" id="aWY-4n-hVC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nEM-hM-mCw" firstAttribute="centerX" secondItem="bbC-LK-e5X" secondAttribute="centerX" constant="70" id="8rg-01-Tkp"/>
+                            <constraint firstItem="gCs-gI-vl3" firstAttribute="leading" secondItem="bbC-LK-e5X" secondAttribute="leading" constant="16" id="8uh-7S-iqR"/>
+                            <constraint firstItem="PdY-FY-IUe" firstAttribute="top" secondItem="ccU-t7-W35" secondAttribute="bottom" constant="32" id="a6T-HE-EJ9"/>
+                            <constraint firstItem="nEM-hM-mCw" firstAttribute="baseline" secondItem="PdY-FY-IUe" secondAttribute="baseline" id="gRP-CT-OvD"/>
+                            <constraint firstAttribute="trailing" secondItem="gCs-gI-vl3" secondAttribute="trailing" constant="16" id="o2o-oa-3Lz"/>
+                            <constraint firstItem="PdY-FY-IUe" firstAttribute="centerX" secondItem="bbC-LK-e5X" secondAttribute="centerX" constant="-70" id="sDF-PT-7im"/>
+                            <constraint firstItem="gCs-gI-vl3" firstAttribute="top" secondItem="PdY-FY-IUe" secondAttribute="bottom" constant="60" id="uHQ-yf-dkt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ye7-lh-4cu"/>
+                    <connections>
+                        <outlet property="dataLabel" destination="gCs-gI-vl3" id="drI-HR-kX2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Svw-X1-yA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-431" y="-57"/>
+        </scene>
+    </scenes>
+</document>
